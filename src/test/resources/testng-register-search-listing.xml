@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RegisterSearchListingSuite" preserve-order="true">
+    <parameter name="suiteName" value="Register_Search_Listing_Deals"/>
+    <test name="Register then Search then Listing then deals" preserve-order="true">
+        <classes>
+            <class name="Tests.RegisterTestCase"/>
+            <class name="Tests.Search"/>
+            <class name="Tests.ListingTestCase"/>
+            <class name="Tests.DealsTestCase"/>
+            <class name="Tests.BookingOverviewTestCase"/>
+            <class name="Tests.PaymentTestCase"/>
+        </classes>
+    </test>
+</suite>
